@@ -1,0 +1,143 @@
+
+body {
+  /*
+background-image:url(teste1.jpg);
+font-size: 12px; color: black;
+background-repeat:no-repeat;
+background-size: cover;
+*/
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+
+.flex
+{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+a
+{
+ color: white;
+}
+a:hover 
+{ 
+     text-decoration:none; 
+     cursor:pointer; 
+     float: left; 
+
+}
+
+.ul_nav
+{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.marca:hover
+{
+  transform: scale(1.05);
+  transition: all 2s;
+  border-bottom-color: rgba(255, 255, 255, .25);
+
+  
+}
+
+.li_nav
+{
+  flex: 0.20;
+  padding: .25rem 0;
+  font-weight: 590;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  
+}
+
+.footer
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:15%;
+  background-color: black;
+}
+
+
+hr.style-eight:after {
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+/*
+ * parte de baixo
+ */
+.footer_flex1
+{
+  padding: 5px;
+  margin: 15px;
+  flex: 1;
+  text-align: left;
+  font-size: 1.2em;
+  background-color: black;
+  color: white;
+}
+
+.footer_flex2
+{
+  padding: 5px;
+  margin: 5px;
+  flex: 0.3;
+  color: white;
+  background-color: black;
+}
+
+.footer-flex3
+{
+  flex: 1;
+}
+
+
+
+/*
+ * Cabeçalho
+ */
+ .masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+
+
+
+
